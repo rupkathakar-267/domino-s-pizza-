@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Domino's Pizza</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Dominos_pizza_logo.svg/1200px-Dominos_pizza_logo.svg.png" alt="Domino's Pizza">
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search for pizza, sides, offers...">
+            <button>Search</button>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="deals.html">Deals</a></li>
+            <li><a href="stores.html">Stores</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="login.html">login</a></li>
+            <li><a href="signup.html">signup</a></li>
+        </ul>
+    </nav>
+
+    <section class="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-category">
+            <h3>Pizzas</h3>
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <img src="images/p2.jpeg" alt="Margherita Pizza">
+                    <div class="menu-item-details">
+                        <h4>Margherita</h4>
+                        <p>Classic cheese and tomato pizza with fresh basil.</p>
+                        <p class="price">Rs.299</p>
+                        <a href="https://www.dominos.co.in/menu/veg-pizzas/margherita">order-now</a>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="images/p1.jpeg" alt="Pepperoni Pizza">
+                    <div class="menu-item-details">
+                        <h4>Pepperoni</h4>
+                        <p>Pepperoni slices on top of mozzarella and tomato sauce.</p>
+                        <p class="price">Rs.499</p>
+                        <a href="https://www.dominos.co.in/menu/non-veg-pizzas/chicken-pepperoni">order-now</a>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="images/p3.jpg" alt="Veggie Pizza">
+                    <div class="menu-item-details">
+                        <h4>Veggie</h4>
+                        <p>Mushrooms, onions, peppers, and olives on a tomato base.</p>
+                        <p class="price">Rs.199</p>
+                        <a href="https://www.dominos.co.in/menu/veg-pizzas/fresh-veggie">order-now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu-category">
+            <h3>Sides</h3>
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <img src="images/p4.jpeg" alt="Garlic Bread">
+                    <div class="menu-item-details">
+                        <h4>Garlic Bread</h4>
+                        <p>Warm, buttery garlic bread with herbs.</p>
+                        <p class="price">Rs.149</p>
+                        <a href="https://www.dominos.co.in/menu/side-orders/stuffed-garlic-bread">order-now</a>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="images/wings.jpeg" alt="Chicken Wings">
+                    <div class="menu-item-details">
+                        <h4>Chicken Wings</h4>
+                        <p>Spicy chicken wings served with dipping sauce.</p>
+                        <p class="price">Rs.599</p>
+                        <a href="https://www.dominos.co.in/menu/chicken">order-now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu-category">
+            <h3>Drinks</h3>
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <img src="images/coca.jpeg" alt="Coca Cola">
+                    <div class="menu-item-details">
+                        <h4>Coca Cola</h4>
+                        <p>Refreshing cola beverage.</p>
+                        <p class="price">Rs.99</p>
+                        <a href="https://www.dominos.co.in/menu/beverages">order-now</a>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="images/or.jpeg" alt="Orange Juice">
+                    <div class="menu-item-details">
+                        <h4>Orange Juice</h4>
+                        <p>Freshly squeezed orange juice.</p>
+                        <p class="price">Rs.129</p>
+                        <a href="">order-now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu-category">
+            <h3>Desserts</h3>
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <img src="data:image/jpeg;base64,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" alt="Chocolate Lava Cake">
+                    <div class="menu-item-details">
+                        <h4>Chocolate Lava Cake</h4>
+                        <p>Warm chocolate cake with a molten chocolate center.</p>
+                        <p class="price">Rs.149</p>
+                        <a href="https://www.dominos.co.in/menu/side-orders/lava-cake">order-now</a>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="images/ice.avif" alt="Ice Cream">
+                    <div class="menu-item-details">
+                        <h4>Ice Cream</h4>
+                        <p>Creamy vanilla ice cream topped with chocolate syrup.</p>
+                        <p class="price">Rs.119</p>
+                        <a href="">order-now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-logo">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Dominos_pizza_logo.svg/1200px-Dominos_pizza_logo.svg.png" alt="Domino's Pizza">
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="deals.html">Deals</a></li>
+                    <li><a href="stores.html">Stores</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Contact Us</h4>
+                <p><strong>Address:</strong> 123 Pizza Street, Cityville, ST 12345</p>
+                <p><strong>Phone:</strong> (123) 456-7890</p>
+                <p><strong>Email:</strong> support@dominos.com</p>
+                <p><strong>Hours:</strong> 10:00 AM - 11:00 PM, 7 days a week</p>
+            </div>
+            <div class="footer-social">
+                <h4>Follow Us</h4>
+                <div class="social-icons">
+                    <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook"></a>
+                    <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram"></a>
+                    <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Logo_of_Twitter.svg" alt="Twitter"></a>
+                    <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/5/58/YouTube_social_white_circle_%282017%29.svg" alt="YouTube"></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Domino's Pizza. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+        </div>
+    </footer>
+    
+</body>
+</html>

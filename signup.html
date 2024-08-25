@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - Domino's Pizza</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Dominos_pizza_logo.svg/1200px-Dominos_pizza_logo.svg.png" alt="Domino's Pizza">
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search for pizza, sides, offers...">
+            <button>Search</button>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="deals.html">Deals</a></li>
+            <li><a href="stores.html">Stores</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="login.html">login</a></li>
+            <li><a href="signup.html">signup</a></li>
+        
+        </ul>
+    </nav>
+
+    <section class="auth-section" >
+        <img src="images/b222.jpeg" alt="s" >
+        <div class="auth-container" style="z-index: 9;">
+            <h2>Create a New Account</h2>
+            <form action="#" method="post">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+
+                <label for="confirm-password">Confirm Password</label>
+                <input type="password" id="confirm-password" name="confirm-password" required>
+
+                <button type="submit">Sign Up</button>
+            </form>
+            <p>Already have an account? <a href="login.html">Login</a></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Domino's Pizza. All rights reserved.</p>
+    </footer>
+</body>
+</html>
